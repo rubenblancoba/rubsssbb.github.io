@@ -1,0 +1,11 @@
+.padre{
+    background-color: skyblue;
+    color: white;
+    overflow: hidden;
+}
+.hijo1{
+    float: left;
+}
+.hijo2{
+    text-align: center;
+}
