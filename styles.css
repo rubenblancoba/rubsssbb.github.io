@@ -10,3 +10,31 @@
     right:10px;
     z-index:2;
   }
+.container-new {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center !important;
+}
+.msy {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+.mdi {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+.cc1{
+    background-color: skyblue;
+    color: white;
+    overflow: hidden;
+}
+.element{
+    float: left;
+}
+.another-element{
+    float: right;
+    margin-right: 2px;
+}
