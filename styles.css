@@ -1,3 +1,22 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin: 0;}
+header{display: block;}
+.container-new {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center !important;
+}
+.msy {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+.mdi {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
 .padre{
     background-color: skyblue;
     color: white;
