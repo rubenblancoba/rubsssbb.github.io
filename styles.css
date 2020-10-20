@@ -9,23 +9,18 @@
     bottom:10px;
     right:10px;
     z-index:2;
-  }
-.container-new {
-    max-width: 980px;
-    margin-right: auto;
-    margin-left: auto;
+}
+p{
+    text-align: justify;
+}
+img{
+  display: block;
+  margin: auto;
 }
 .text-center {
-    text-align: center !important;
+    text-align: center ;
 }
-.msy {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-}
-.mdi {
-    padding-right: 16px !important;
-    padding-left: 16px !important;
-}
+
 .cc1{
     background-color: skyblue;
     color: white;
