@@ -1,5 +1,7 @@
 body {
   background-image: url('fondooscuro.jpg');
+  background-attachment: fixed;
+  background-size: cover;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
   text-align:center;
