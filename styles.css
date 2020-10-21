@@ -65,9 +65,9 @@ img{
   color:white;
 }
 .main {
-  float:left;
-  width:60%;
+  width:90%;
   padding:0 20px;
+  margin: auto;
 }
 .right {
   background-color:transparent;
@@ -114,33 +114,24 @@ svg:not(:root) {
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  overflow: hidden;
+  margin-top: 0%;
 }
 .parent {
   width: 100%;
-  border: 2px solid black;
-  overflow: hidden;;
+  overflow: hidden;
 }
 
-.childL {
-  width: 40%;
-  padding: 5px;
+.child {
+  width: 90%;
+  padding: 20%;
   margin: .5em auto;
-  float: left;
 }
-.childR {
-  width: 40%;
-  padding: 5px;
-  margin: .5em auto;
-  float: right;
-}
+
 
 .twins {
   width: 50%;
-  padding: 1em;
+  padding: 4px;
   float: left;
   background-color: transparent;
 }
