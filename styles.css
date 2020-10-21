@@ -1,60 +1,54 @@
+html{
+  background-image: url("https://www.freepik.es/fotos-premium/brillante-letrero-neon-cuadrado-marco-neon-morado-azul-pared-ladrillo-oscuro_6577146.htm") ;
+  background-color: transparent;
+}
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
-  background-color: aliceblue;
+  text-align:center;
+}
+p, pre{
+    font-size: 1.1em;
+    color: black;
+    background-color: transparent;
+}
+div{
+  background-color: white;
 }
 p{
-    text-align: justify;
+  background-image: none;
 }
 img{
   display: block;
   margin: auto;
 }
+h2{
+  text-align: center;
+  border: 4px solid rgb(5, 5, 92);
+  padding: 5px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+h3{
+  text-align: center;
+  border: 2px solid rgb(5, 5, 92);
+  padding: 5px;
+}
+p{
+  text-align: center;
+}
+h4{
+  margin: 25px;
+}
 .text-center {
     text-align: center ;
 }
-
-.bc{
-  width: 100%;
-  background-color: cornflowerblue;
-  color: white;
-  overflow: hidden;
-}
-.element{
-    float: left;
-}
-.another-element{
-    float: right;
-    margin-right: 2px;
-}
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-.parentL {
-  width: 50%;
-  border: 2px solid black;
-  float: left;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-.child {
-  width: 90%;
-  padding: 20%;
-  border: 1px solid black;
-  margin: .5em auto;
-}
-
-.twins {
-  width: 50%;
-  padding: 1em;
-  border: 0.5px solid black;
-  float: right;
-}
-.parentR {
-  width: 50%;
-  border: 2px solid black;
-  float: right;
-  overflow: hidden;
-}
 h2{
   text-align: center;
   border: 4px solid rgb(5, 5, 92);
