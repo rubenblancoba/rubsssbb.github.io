@@ -9,7 +9,7 @@ body {
 }
 p, pre{
     font-size: 1.1em;
-    color: white;
+    color: black;
     background-color: transparent;
 }
 div{
@@ -23,20 +23,11 @@ img{
   display: block;
   margin: auto;
 }
-h2{
-  text-align: center;
-  padding: 5px;
-}
-img{
-  display: block;
-  margin: auto;
-}
-
 p{
   text-align: center;
 }
-h4{
-  margin: 25px;
+.float-right{
+  float: right;
 }
 .text-center {
     text-align: center ;
@@ -117,21 +108,9 @@ h4{
 .text-uppercase {
   text-transform: uppercase !important;
 }
-.align-items-center {
-  -webkit-box-align: center !important;
-  align-items: center !important;
-}
-.d-flex {
-  display: -webkit-box !important;
-  display: flex !important;
-}
-@media (min-width: 768px)
-.container {
-  max-width: 720px;
-}
-@media (min-width: 576px)
-.container {
-  max-width: 540px;
+.primary {
+  background-color: blueviolet;
+  color: white;
 }
 .container {
   width: 100%;
