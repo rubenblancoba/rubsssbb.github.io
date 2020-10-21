@@ -1,19 +1,17 @@
-html{
-  background-image: url("https://www.freepik.es/fotos-premium/brillante-letrero-neon-cuadrado-marco-neon-morado-azul-pared-ladrillo-oscuro_6577146.htm") ;
-  background-color: transparent;
-}
 body {
+  background-image: url('fondonegro.jpg');
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
   text-align:center;
+  color: white;
 }
 p, pre{
     font-size: 1.1em;
-    color: black;
+    color: white;
     background-color: transparent;
 }
 div{
-  background-color: white;
+  background-color: transparent;
 }
 p{
   background-image: none;
