@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   font-size: medium;
   color:white;
+  position: relative;
 }
 
 p, pre{
@@ -24,8 +25,10 @@ img{
 }
 .cabecera{
   background-color: white;
-  color: black;
 
+}
+.al{
+  align-items: center;
 }
 .float-left{
   float: left;
@@ -124,4 +127,7 @@ img{
   padding: 4px;
   float: left;
   background-color: transparent;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
