@@ -1,0 +1,137 @@
+
+body {
+  background-color:white ;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: medium;
+  color:black;
+}
+
+p, pre{
+    font-size: 1.1em;
+    color: black;
+    background-color: transparent;
+}
+div{
+  display: block;
+  background-color: transparent;
+}
+p{
+  background-image: none;
+}
+img{
+  display: block;
+  margin: auto;
+}
+.cabecera{
+  background-color: white;
+
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.text-center {
+  text-align: center ;
+}
+.cb{
+  color: black;
+}
+.bcw{
+  background-color: white;
+}
+.p10{
+  padding: 10px;
+}
+.p5{
+  padding: 5px;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.menu{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu a {
+  background-color:transparent;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:white;
+}
+.main {
+  width:90%;
+  padding:0 20px;
+  margin: auto;
+}
+.right {
+  background-color:transparent;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+.button{
+  padding: 0;
+}
+.button li{
+  display: inline;
+}
+.button li a {
+  font-size: 11px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+.button li a:hover{
+  background-color: red;
+  margin-top: -2;
+  padding-bottom: 12px;
+}
+.w-100{
+  width: 100%;
+}
+.site-header .icon-logo-text {
+  height: 15px;
+  width: 116px;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0%;
+}
+.parent {
+  width: 100%;
+  overflow: hidden;
+}
+
+.child {
+  width: 90%;
+  padding: 20%;
+  margin: .5em auto;
+}
+
+
+.twins {
+  width: 50%;
+  padding: 4px;
+  float: left;
+  background-color: transparent;
+}
