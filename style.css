@@ -110,12 +110,4 @@ img{
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-div.nowrap {
-  overflow: hidden;
-  white-space: nowrap;
- }
 
-div.nowrap > div.white-space {
-  display: inline-block;
-  white-space: normal;
- }
