@@ -76,35 +76,32 @@ img{
 }
 .twins {
   width: 50%;
-  padding: 4px;
+  padding: 10px;
   float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  align-content: space-between;
+  margin: auto;
 }
 .selector-for-some-widget {
   box-sizing: content-box;
 }
-.boton-subir{
-  display: none;
-  background: #00974B;
-  border: thin solid #fff;
-  border-radius: 3px;
-  position: fixed;
-  right: 15px;
-  bottom:2px;
-  z-index: 999999999;
+.center{
+  margin: 16px;
 }
-/*evento hover*/
-.boton-subir:hover{
-  box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
-/*estilos para el tag i*/
-.boton-subir i{
-  color: #fff;
-  font-size: 1.5em;
-  padding: 10px 10px 10px 7px;
-  -ms-transform: rotate(-45deg); /* IE 9 */
-  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-  transform: rotate(-45deg);
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
