@@ -71,6 +71,8 @@ img{
   width: 100%;
   overflow: hidden;
   padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .child {
   width: 90%;
@@ -101,10 +103,19 @@ img{
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 50px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
 
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+div.nowrap {
+  overflow: hidden;
+  white-space: nowrap;
+ }
+
+div.nowrap > div.white-space {
+  display: inline-block;
+  white-space: normal;
+ }
