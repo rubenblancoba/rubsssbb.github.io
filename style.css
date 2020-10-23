@@ -110,4 +110,9 @@ img{
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
+.parrafo{
+  width: fit-content;
+  margin: 10px;
+  text-align: justify;
+  
+}
