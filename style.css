@@ -83,7 +83,7 @@ img{
   margin-bottom: 15px;
 }
 .child {
-  width: 80%;
+  width: 90%;
   padding: 20%;
   margin: .5em auto;
 }
@@ -121,4 +121,5 @@ img{
 .white-space{
   white-space: nowrap;
 }
+
 
