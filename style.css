@@ -17,6 +17,12 @@ div{
 }
 p{
   background-image: none;
+  width: 400px;
+  text-align: justify;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15%;
 }
 img{
   display: block;
@@ -83,7 +89,7 @@ img{
   width: 50%;
   padding: 10px;
   float: left;
-  margin: auto;
+  margin: auto
 }
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -110,9 +116,7 @@ img{
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-.parrafo{
-  width: fit-content;
-  margin: 10px;
-  text-align: justify;
-  
+.white-space{
+  white-space: nowrap;
 }
+
