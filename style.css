@@ -1,9 +1,8 @@
 
 body {
-  background-color:black ;
   font-family: sans-serif;
   font-size: medium;
-  color:white;
+  color:black;
   position: relative;
   text-align: center;
 }
@@ -56,6 +55,9 @@ img{
 }
 .cb{
   color: black;
+}
+.cw{
+  color: white;
 }
 .bcw{
   background-color: white;
@@ -115,8 +117,6 @@ img{
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 50px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
 }
 
 .myBtn:hover {

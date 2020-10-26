@@ -14,27 +14,19 @@
 
 </head>
 <body>
-  <div class="fixed-top">
+  <div class="fixed-top" id="top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 rounded fixed-top">
         <a class="navbar-brand" href="https://rubsssbb.github.io/web/">RBB</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ">
-              <a class="nav-link" href="#Presentación">Presentación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Aptitudes">Aptitudes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#Contacto">Contacto</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#Presentación">Presentación<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Proyectos">Proyectos</a>
+            <a class="nav-link" href="#Aptitudes">Aptitudes</a>
+            <a class="nav-link " href="#Contacto">Contacto</a>
+          </div>
         </div>
     </nav>
 </div>
@@ -124,7 +116,11 @@
 </footer>
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top" class="myBtn myBtn:hover">Top</button>
+<a href="top"><button onclick="topFunction()" id="myBtn" title="Go to top" class="myBtn myBtn:hover btn btn-outline-primary">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"></path>
+      </svg>
+</button></a>
 <script src="myScript.js"></script>
 </body>
 
