@@ -40,9 +40,3 @@ $(document).ready(function(){
 function displayPlace(){
   document.getElementById("Lugar").innerHTML="Madrid"
 }
-function getStars(){
-  $.getJSON('https://api.github.com/repos/rubsssbb/rubsssbb.github.io', function(data) {
-    
-    return data.stargazers_count;
-  });
-}
