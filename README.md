@@ -1,2 +1,2 @@
 ### web
-[Link pagina](https://rubsssbb.github.io/web/)
+[Link pagina](https://rubsssbb.github.io/)
