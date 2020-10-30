@@ -40,10 +40,9 @@ $(document).ready(function(){
 function displayPlace(){
   document.getElementById("Lugar").innerHTML="Madrid"
 }
-
-$.getJSON('https://api.github.com/repos/rubsssbb/rubsssbb.github.io', function(data) {
-
-  var text = `Estrellas en repositorio de GitHub: ${data.stargazers_count}`
-  text = text.concat(" <i class=\"fas fa-star\"></i>");
-  $(".starRating").html(text);
-});
+function getStars(){
+  $.getJSON('https://api.github.com/repos/rubsssbb/rubsssbb.github.io', function(data) {
+    
+    return data.stargazers_count;
+  });
+}
