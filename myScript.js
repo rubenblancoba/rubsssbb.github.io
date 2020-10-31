@@ -40,13 +40,13 @@ $(document).ready(function(){
 function displayPlace(){
   $.get("http://worldtimeapi.org/api/timezone/Europe/Madrid", (data, status) => {
     //alert("Data: " + data.utc_datetime + "\nStatus: " + status);
-    document.getElementById("Lugar").innerHTML=data.timezone;
+    document.getElementById("Lugar").innerHTML=""+data.timezone;
   });
 }
 function getHora(){
   $.get("http://worldtimeapi.org/api/timezone/Europe/Madrid", (data, status) => {
     //alert("Data: " + data.utc_datetime + "\nStatus: " + status);
-    document.getElementById("Hora").innerHTML=data.datetime;
+    document.getElementById("Hora").innerHTML=""+data.datetime;
   });
 }
 function getDiaSemana(){
@@ -71,12 +71,12 @@ function getDiaSemana(){
 function getDiaAño(){
   $.get("http://worldtimeapi.org/api/timezone/Europe/Madrid", (data, status) => {
     //alert("Data: " + data.utc_datetime + "\nStatus: " + status);
-    document.getElementById("DiaA").innerHTML=data.day_of_year;
+    document.getElementById("DiaA").innerHTML=""+data.day_of_year;
   });
 }
 function getSemana(){
   $.get("http://worldtimeapi.org/api/timezone/Europe/Madrid", (data, status) => {
     //alert("Data: " + data.utc_datetime + "\nStatus: " + status);
-    document.getElementById("Semana").innerHTML=data.week_number;
+    document.getElementById("Semana").innerHTML=""+data.week_number;
   });
 }
