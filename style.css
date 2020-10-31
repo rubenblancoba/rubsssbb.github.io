@@ -18,7 +18,6 @@ div{
 }
 p{
   background-image: none;
-  width: 400px;
   text-align: justify;
   text-align: center;
   margin-top: 15px;
@@ -100,7 +99,8 @@ img{
   width: 50%;
   padding: 10px;
   float: left;
-  margin: auto
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .selector-for-some-widget {
   box-sizing: content-box;

@@ -51,21 +51,19 @@ function getHora(){
 }
 function getDiaSemana(){
   $.get("http://worldtimeapi.org/api/timezone/Europe/Madrid", (data, status) => {
-    //alert("Data: " + data.utc_datetime + "\nStatus: " + status);
-    function covertirDia(data){
+    //alert("Data: " + data.utc_datetime + "\nStatus: " + status);s
       var dia;
       switch(data.day_of_week){
-        case 1: dia="Lunes";
-        case 2: dia="Martes";
-        case 3: dia="Miercoles";
-        case 4: dia="Jueves";
-        case 5: dia="Viernes";
-        case 6: dia="Sabado";
-        case 7: dia="Domingo";
+        case 1: dia="Lunes";break;
+        case 2: dia="Martes";break;
+        case 3: dia="Miercoles";break;
+        case 4: dia="Jueves";break;
+        case 5: dia="Viernes";break;
+        case 6: dia="Sabado";break;
+        case 7: dia="Domingo";break;
+        default: dia="un gran dia";
       }
-      return dia;
-    }
-    document.getElementById("DiaS").innerHTML=""+convertirDia(data);
+    document.getElementById("DiaS").innerHTML="Hoy es "+dia;
   });
 }
 function getDiaAño(){
