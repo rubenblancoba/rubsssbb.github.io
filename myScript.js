@@ -60,8 +60,7 @@ function getDiaSemana(){
         case 4: dia="Jueves";break;
         case 5: dia="Viernes";break;
         case 6: dia="Sabado";break;
-        case 7: dia="Domingo";break;
-        default: dia="un gran dia";
+        default: dia="Domingo";
       }
     document.getElementById("DiaS").innerHTML="Hoy es "+dia;
   });
