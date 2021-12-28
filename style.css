@@ -7,6 +7,7 @@ body {
   color:black;
   position: relative;
   text-align: center;
+  background: rgb(113, 223, 231);
 }
 
 p, pre{
